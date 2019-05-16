@@ -37,4 +37,122 @@ Node.js 适用场景
 复杂的处理的时候，Node.js 也非常适合与 web socket 配合，开发长连接的实时交互应用程序。
 比如：聊天室，博客系统，考试系统等。
 
+
+复制拷贝文件 服务器到本地，本地到服务器的方法
+scp -p 22 ./data.sql root@远程ip地址:/root //把data.sql文件上传到 远程服务器的 /root目录下  
+実際コマンド　直下txtファイルをリモートホストの/home/t-lqiuにコピーします。
+scp -p 22 ./1.txt ssh catalog-test.ogk.ynwm.yahoo.co.jp:/home/t-lqiu
+
+从服务器下载整个目录 scp -r username@servername:/root/（远程目录） /Users/mac/Desktop（本地目录）
+例如:scp -r root@192.168.0.101:/root/ /Users/mac/Desktop/
+実際コマンド
+scp -r ssh catalog-test.ogk.ynwm.yahoo.co.jp:/home/t-lqiu/node-proxy /Users/t-lqiu/node
+
+上传目录到服务器 scp -r local_dir username@servername:remote_dir
+例如：scp -r test root@192.168.0.101:/root/ 把当前目录下的test目录上传到服务器的/root/ 目录
+注：目标服务器要开启写入权限。
+
+
+req explain
+http://expressjs.com/en/api.html#req
+
+Node.js v10.15.3 Documentation
+https://nodejs.org/dist/latest-v10.x/docs/api/https.html
+
+Node.js
+
+Node.js 基础课程
+https://www.shiyanlou.com/courses/44
+
+Node.js包教不包会
+https://www.shiyanlou.com/courses/493
+
+Node.js 教程    这个教程不错，比较适合  推荐优先学习
+http://www.runoob.com/nodejs/nodejs-tutorial.html
+
+Node.js 安装方法
+http://www.runoob.com/nodejs/nodejs-install-setup.html
+
+
+ubuntu安装nodejs并升级到最新版本
+https://www.centos.bz/2017/11/ubuntu%E5%AE%89%E8%A3%85nodejs%E5%B9%B6%E5%8D%87%E7%BA%A7%E5%88%B0%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC/
+
+Ubuntu下面安装npm     建议优先安装npm，更新到最新软件list表状态
+sudo apt-get install npm
+
+node.js: cannot find module 'request'    这个很重要 安装module  npm使用方法
+https://stackoverflow.com/questions/16482600/node-js-cannot-find-module-request
+
+nodejs 重定向 (redirect + writeHead(Location))
+https://www.cnblogs.com/gamedaybyday/p/6639077.html
+https://itbilu.com/nodejs/npm/EJD5cyg3l.html#redirect
+
+Node.js使用request模块让http请求变简单
+https://itbilu.com/nodejs/npm/NJLUyVB7.html
+
+Ubuntu下面安装node
+sudo apt-get install node
+
+卸载模块
+我们可以使用以下命令来卸载 Node.js 模块。
+$ npm uninstall express
+卸载后，你可以到 /node_modules/ 目录下查看包是否还存在，或者使用以下命令查看：
+$ npm ls
+
+更新模块
+我们可以使用以下命令更新模块：
+$ npm update express
+
+搜索模块
+使用以下来搜索模块：
+$ npm search express
+
+在本地node程序的目录运行下面的命令
+rm -rf node_modules/     删掉node_modules 目录下面所有的包
+npm cache clean       清除缓存内容
+npm install           重新安装npm依赖包
+安装所有必需的依赖关系。
+---------------------------------------------------------------------------------------
+
+Ruby on Rails
+
+Ruby基础教程
+https://www.shiyanlou.com/courses/13
+
+Rails基础入门
+https://www.shiyanlou.com/courses/103
+
+
+Ruby 中文文档
+https://www.ruby-lang.org/zh_cn/documentation/
+
+
+rails框架了解
+	安装ruby 和 rails
+	http://railsinstaller.org/en
+
+	https://guides.rubyonrails.org/v5.1/getting_started.html     ok
+
+
+如何快速正确的安装 Ruby, Rails 运行环境
+https://ruby-china.org/wiki/install_ruby_guide
+
+
+Ubuntu下面安装ruby
+sudo apt-get install ruby
+
+安装完ruby后更新一下Ubuntu的状态
+sudo apt-get update
+
+update更新后在Ubuntu下面安装Rails
+sudo apt-get install Rails
+
+
+Express 4.x API 中文文档
+https://www.runoob.com/w3cnote/express-4-x-api.html
+
+
+Express 高度包容、快速而极简的 Node.js Web 框架　中国語
+http://expressjs.com/zh-cn/
+
 ```
