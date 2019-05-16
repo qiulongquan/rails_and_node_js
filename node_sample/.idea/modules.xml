@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../corporateidp-nodejs-example_new/corporateidp-nodejs-example/.idea/corporateidp-nodejs-example.iml" filepath="$PROJECT_DIR$/../corporateidp-nodejs-example_new/corporateidp-nodejs-example/.idea/corporateidp-nodejs-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_WSL/.idea/node_WSL.iml" filepath="$PROJECT_DIR$/../node_WSL/.idea/node_WSL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/node_sample.iml" filepath="$PROJECT_DIR$/.idea/node_sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../proxy_test_qiu/.idea/proxy_test.iml" filepath="$PROJECT_DIR$/../proxy_test_qiu/.idea/proxy_test.iml" />
+    </modules>
+  </component>
+</project>
